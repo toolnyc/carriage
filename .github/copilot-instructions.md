@@ -1,0 +1,4 @@
+## Carriage — GitHub Copilot Instructions
+
+Read `AGENTS.md` for the full, authoritative set of instructions.
+All conventions, structure, and tooling are documented there.
