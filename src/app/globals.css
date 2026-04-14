@@ -7,6 +7,12 @@
   --animate-float: float 8s ease-in-out infinite;
   --animate-breathe: breathe 6s ease-in-out infinite;
   --animate-fade-in: fade-in 2s ease-out both;
+  --animate-drift: drift 20s ease-in-out infinite;
+}
+
+html,
+body {
+  overscroll-behavior: none;
 }
 
 @keyframes grain {
@@ -80,5 +86,21 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1.02);
+  }
+  25% {
+    transform: translate(-8px, -5px) scale(1.02);
+  }
+  50% {
+    transform: translate(5px, -10px) scale(1.02);
+  }
+  75% {
+    transform: translate(-5px, 3px) scale(1.02);
   }
 }
