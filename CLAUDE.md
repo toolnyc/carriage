@@ -29,6 +29,17 @@ Quick fixes (< 5 lines, existing files) are exempt.
 - `/session-close` — End session cleanly
 - `/docs-sync` — Sync instructions to all editor entry points
 
+## Obsidian Vault
+
+All non-code documentation, knowledge base writes, and file I/O outside `src/` go to the **Carriage vault**:
+
+```
+~/Dropbox/Notes/Obsidian/Carriage/
+```
+
+This is the default target for session reports, architecture notes, references, and strategy docs.
+Do **not** write documentation files into the code repo — use the vault.
+
 ## Session Workflow
 
 ```
