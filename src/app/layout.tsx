@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Carriage",
   icons: {
     icon: [
-      { url: "/brand/icon.svg", type: "image/svg+xml" },
+      { url: "/brand/favicon-c.svg", type: "image/svg+xml" },
       { url: "/brand/icon@3x.png", type: "image/png", sizes: "any" },
     ],
     apple: "/brand/icon@3x.png",

@@ -33,3 +33,4 @@ test-results/
 # claude code
 .claude/state/
 .claude/worktrees/
+.vercel
