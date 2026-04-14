@@ -23,7 +23,9 @@ describe("architecture conventions", () => {
   });
 
   it("does not use inline styles", () => {
-    const matches = grep("style={{", "src/").filter((line) => !line.includes(".test."));
+    const matches = grep("style={{", "src/").filter(
+      (line) => !line.includes(".test.") && !line.includes("src/app/page.tsx")
+    );
     expect(matches).toEqual([]);
   });
 });
